@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <style>
+      h1 {
+        color: #1a64d6;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 34px;
+        margin: 0;
+        line-height: 48px;
+      }
+
+      h2 {
+        font-weight: normal;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        line-height: 48px;
+        font-size: 34px;
+      }
+
+      .high-23 {
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      ul {
+        list-style-type: none;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0;
+      }
+
+      .temp-tom {
+        padding: 10px 0;
+        margin: 0px auto;
+        max-width: 400px;
+        background-color: white;
+        border-radius: 10px 15px;
+        transition: all 200ms ease-in-out;
+      }
+      .temp-tom:hover {
+        background-color: #fffbef;
+        border-radius: 10px;
+        transition: background-color 150ms ease;
+      }
+
+      li {
+        font-size: 18px;
+        text-align: center;
+      }
+
+      .temp-10 {
+        font-family: monospace;
+        opacity: 0.7;
+      }
+
+      .temp-15 {
+        font-family: monospace;
+        opacity: 0.7;
+      }
+
+      .temp-25 {
+        font-family: monospace;
+        opacity: 0.7;
+      }
+      button {
+        display: block;
+        margin: 20px auto;
+        border: 1px solid #1a64d6;
+        background: #1a64d6;
+        color: white;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 16px 24px;
+        border-radius: 30px;
+        transition: all 200ms ease-in-out;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+      }
+
+      button:hover {
+        color: #1a64d6;
+        background-color: white;
+        border: 1px solid #1a64d6;
+      }
+
+      p {
+        font-size: 18px;
+        text-align: center;
+        font-family: monospace;
+        opacity: 0.7;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      🌤 <br />
+      Currently 21° in Tokyo
+    </h1>
+    <h2>13° / <span class="high-23">23°</span></h2>
+    <br />
+    <ul>
+      <li class="temp-tom">
+        <strong>🌧Tomorrow</strong>
+        <br />
+        <br />
+        <span class="temp-10">10° / <strong>22°</strong></span>
+        <br />
+        <br />
+      </li>
+      <li class="temp-tom">
+        <strong>🌥Saturday</strong>
+        <br /><br />
+        <span class="temp-15">15° / <strong>17°</strong></span>
+        <br />
+        <br />
+      </li>
+      <li class="temp-tom">
+        <strong>☀️Sunday</strong>
+        <br />
+        <br />
+        <span class="temp-25">25° / <strong>28°</strong></span>
+      </li>
+    </ul>
+    <br />
+    <button>Change city</button>
+
+    <p>Coded by Khabelihle</p>
+  </body>
+</html>
