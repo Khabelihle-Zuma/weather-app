@@ -1,31 +1,35 @@
 # Weather App 🌤️
 
-A simple, stylish weather forecast display built using HTML and CSS.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)  
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)  
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-2088FF?logo=github&logoColor=white)
+
+A clean and simple weather forecast app built with HTML and CSS.
 
 ---
 
 ## Features
 
-- Displays current weather for Tokyo  
-- Shows a 3-day forecast with temperature highs and lows  
-- Smooth hover effects for daily forecast cards
+- Displays current weather conditions for Tokyo  
+- Shows a 3-day forecast with highs and lows  
+- Interactive hover effects on forecast cards
 
 ---
 
-## Technologies Used
+## Technologies
 
 - HTML5  
-- CSS3 (inline styles)
+- CSS3
 
 ---
 
 ## Live Demo
 
-Check it out here: [Weather App Live](https://khabelihle-zuma.github.io/weather-app/)
+Try it out here: [Weather App Live](https://khabelihle-zuma.github.io/weather-app/)
 
 ---
 
-## Screenshots
+## Screenshot
 
 ![Weather App Screenshot](./screenshot.png)
 
@@ -33,13 +37,13 @@ Check it out here: [Weather App Live](https://khabelihle-zuma.github.io/weather-
 
 ## Future Improvements
 
-- Integrate live weather API data  
-- Make the design fully responsive for mobile devices  
-- Add JavaScript for user interaction (e.g., changing city)
+- Integrate real-time weather data using a public API  
+- Make the app fully responsive for all device sizes  
+- Add JavaScript to allow users to change the city
 
 ---
 
 ## Author
 
-Coded by Khabelihle Zuma  
+Khabelihle Zuma  
 [GitHub Profile](https://github.com/Khabelihle-Zuma)
